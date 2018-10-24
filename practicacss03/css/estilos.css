@@ -1,0 +1,152 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*Es requerimiento del cliente*/
+	max-width: 1360px;
+}
+#seccionmain{
+	margin-top: 10px;
+	background-color:rgb(43,43,43);
+	width: 100%;
+}
+header input{
+	float: left;
+	margin-left: 135px;
+	margin-right:0px;
+	margin-top: 5px;
+	width: 12%;
+	height: 30px ;
+}
+header img{
+	margin-top: 5px;
+	width: 69%;
+	margin-left: 100px;
+}
+#seccionmain #secc01 img{
+	margin-top: 15px;
+	width: 80%;
+}
+#seccionmain #secc01 ul{
+	list-style: none;
+}
+#seccionmain #secc01 ul li{
+	margin-bottom: 7px;
+	margin-left: 50px;
+}
+#secc01{
+	/*margin-left: 30px;*/
+	display: inline-block;
+	height: 350px;
+	
+}
+#secc02 {
+	width: 70%;
+	float: right;
+	height: 350px;
+}
+#secc02 article{
+	height: 300px;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-left:-4px;
+	width: 24%;
+	display: inline-block;	
+	position: relative;
+	padding-left: 5px;
+	
+}
+#secc03 {
+	padding-top: 30px;
+	/*padding-left: 80px;*/
+	border-top: solid 1px  rgb(68, 68, 68); 
+}
+#secc03 article
+{
+	width:25%;
+	margin-left: 100px;
+	display: inline-block;
+}
+#secc03 article img{
+	opacity: 0.8;
+	width:100%;
+}
+#secc04{
+	padding-left: 10px;
+}
+#secc04 article
+{
+	width: 25%;
+	vertical-align: top;
+	margin-top:20px;
+	margin-left:29px;
+	margin-right: 29px;
+	padding-left: 50px;
+	padding-top:10px;
+	border-top	:  1px dashed white;
+	display: inline-block;
+}
+#caja{
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	opacity:0.2;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom:0px;
+	right:0px;
+	margin: 0px;
+}
+
+p{
+	margin-block-start:0em;
+	margin-block-end: 0.3em;
+}
+.colorverde{
+	background-color: rgb(180,208,82);
+}
+.colorgris{
+	background-color: rgb(84,84,84);
+}
+.colorrojo{
+	background-color: rgb(212,45,63);
+}
+.colorgrisclaro{
+	background-color: rgb(228,228,228);
+}
+.letrablanca{
+	color:white;
+}
+.letragris{
+	color:rgb(141,141,141);
+}
+.letragrisclaro{
+	color:rgb(170, 170, 170);
+}
+.letragrismenosclaro{
+	color:rgb(91,91,91);
+}
+.letraazul{
+	color:rgb(74,110,130);
+}
+.letragrande{
+	font-size: 2em;
+}
+.nito{
+	font-weight: bold; /*negritas*/
+}
+.moreon{
+	font-size: 1.1em;
+	color:white;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+}
+.readmore{
+	float: right;
+	color: white;
+	display: block;
+	margin-top: 25px;
+	margin-bottom:25px;
+}
