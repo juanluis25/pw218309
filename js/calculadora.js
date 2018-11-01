@@ -19,14 +19,17 @@ window.onload=function(){
  		}
  		document.getElementById("operando1").value+=valor;
 			
- 		}else{ 
- 		if (operador==""){
+ 		}
+ 		else{ 
+ 		
  	var valorInput=document.getElement("operando2").value;
- 	if(valorInput=="0"){
+ if(valor	Input=="0"){
  		document.getElementById("operando2")value="";
  		}
  		document.getElementById("operando2").value+=valor;		
  	}
+ }
+
  	var uno=document.getElementById("uno")
  	uno.addEventListener("click", numeros)
  	 	var dos=document.getElementById("dos")
